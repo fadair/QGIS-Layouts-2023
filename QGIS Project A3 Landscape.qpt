@@ -492,7 +492,7 @@
    <custom-order enabled="0"/>
   </layer-tree-group>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="Attribution" itemRotation="0" labelText="Attribution: [%array_to_string(map_credits('template'))%]" marginX="1" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="5,292,mm" positionLock="true" positionOnPage="5,292,mm" referencePoint="0" size="75,5,mm" templateUuid="{c99fd877-86c8-42ef-b418-080104c1fb35}" type="65641" uuid="{c99fd877-86c8-42ef-b418-080104c1fb35}" valign="32" visibility="1" zValue="16">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="Credits" itemRotation="0" labelText="Credits&#xa;: [%array_to_string(map_credits('template'))%]" marginX="1" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="5,292,mm" positionLock="true" positionOnPage="5,292,mm" referencePoint="0" size="75,5,mm" templateUuid="{c99fd877-86c8-42ef-b418-080104c1fb35}" type="65641" uuid="{c99fd877-86c8-42ef-b418-080104c1fb35}" valign="32" visibility="1" zValue="16">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -928,7 +928,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="Path" itemRotation="270" labelText="Path:" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="415.001,292.001,mm" positionLock="true" positionOnPage="415.001,292.001,mm" referencePoint="0" size="287,5.00038,mm" templateUuid="{a775d2eb-c003-41bf-813e-b6c31b2d4d8d}" type="65641" uuid="{a775d2eb-c003-41bf-813e-b6c31b2d4d8d}" valign="32" visibility="1" zValue="6">
+ <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="Text 90 Degrees" itemRotation="270" labelText="optional text" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="415.001,292.001,mm" positionLock="true" positionOnPage="415.001,292.001,mm" referencePoint="0" size="287,5.00038,mm" templateUuid="{a775d2eb-c003-41bf-813e-b6c31b2d4d8d}" type="65641" uuid="{a775d2eb-c003-41bf-813e-b6c31b2d4d8d}" valign="32" visibility="0" zValue="6">
   <FrameColor alpha="255" blue="0" green="0" red="0"/>
   <BackgroundColor alpha="255" blue="255" green="255" red="255"/>
   <LayoutObject>
@@ -1929,6 +1929,12 @@
   <Option type="Map">
    <Option name="atlasRasterFormat" type="QString" value="png"/>
    <Option name="forceVector" type="int" value="0"/>
+   <Option name="imageAntialias" type="bool" value="true"/>
+   <Option name="imageCropMarginBottom" type="int" value="0"/>
+   <Option name="imageCropMarginLeft" type="int" value="0"/>
+   <Option name="imageCropMarginRight" type="int" value="0"/>
+   <Option name="imageCropMarginTop" type="int" value="0"/>
+   <Option name="imageCropToContents" type="bool" value="false"/>
    <Option name="pdfAppendGeoreference" type="int" value="1"/>
    <Option name="pdfCreateGeoPdf" type="int" value="0"/>
    <Option name="pdfDisableRasterTiles" type="int" value="0"/>
