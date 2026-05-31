@@ -1928,6 +1928,17 @@
  <customproperties>
   <Option type="Map">
    <Option name="atlasRasterFormat" type="QString" value="png"/>
+   <Option name="forceVector" type="int" value="0"/>
+   <Option name="pdfAppendGeoreference" type="int" value="1"/>
+   <Option name="pdfCreateGeoPdf" type="int" value="0"/>
+   <Option name="pdfDisableRasterTiles" type="int" value="0"/>
+   <Option name="pdfExportThemes" type="QString" value=""/>
+   <Option name="pdfGroupOrder"/>
+   <Option name="pdfIncludeMetadata" type="int" value="1"/>
+   <Option name="pdfLayerOrder" type="QString" value="Esri_Imagery_b0cf6c82_70bc_4fa6_a69a_fed76d26716d~~~OpenTopo_ef3394b1_5828_44e0_875a_f76f9bfc88cd~~~OpenStreetMap_526a4625_eb3f_4123_9c81_0e61bdd51da8"/>
+   <Option name="pdfLosslessImages" type="int" value="1"/>
+   <Option name="pdfSimplify" type="int" value="1"/>
+   <Option name="pdfTextFormat" type="int" value="0"/>
    <Option name="singleFile" type="bool" value="true"/>
   </Option>
  </customproperties>
